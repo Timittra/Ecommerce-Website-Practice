@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    margin: auto;
+}
+a:hover,
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ /* common css ends  */
+
+/* header starts */
+.header-section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: hsla(346, 77%, 86%, 0.966);
+}
+#top .nav-item{
+    padding-left: 80px;
+}
+.nav-img {
+    border-radius: 50%;
+}
+.header-section .nav-item {
+    margin-right: 40px;
+}
+.header-section .navbar-nav .nav-item .nav-link {
+    color: #C60164;
+    transition: transform .2s;
+}
+.header-section .navbar-nav .nav-item:hover .nav-link {
+    color: #FF7294;
+    transform: scale(1.5);
+}
+
+/* banner starts */
+.banner {
+    background: url(../images/banner.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.banner-overlay {
+    padding: 36px 0 155px;
+}
+.banner-overlay .banner-con {
+    margin-top: 450px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    font-weight: 500px;
+    color: #C60164;
+    transition: transform .2s;
+}
+.banner-overlay:hover .banner-con {
+    color: #FF7294;
+    transform: scale(1.1);
+}
+
+/* about starts */
+.about-us {
+    height: 650px;
+    color: #C60164;
+    transition: transform .2s;
+    font-family: 'Roboto', sans-serif;
+}
+.about-us:hover h1 {
+    color: #FF7294;
+    transform: scale(1.5);
+}
+.about-us h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+.about-us img {
+    margin-top: 30px;
+    height: 450px;
+    width: 450px;
+}
+.for-about-R {
+    font-size: 60px;
+    color: #C60164;
+    font-family: 'Dancing Script', cursive;
+}
+.about-us .paragraph {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #be5b72;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.about-us .paragraph strong {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* services starts */
+#services {
+    height: 1300px;
+    color: #C60164;
+    transition: transform .2s;
+    font-family: 'Roboto', sans-serif;
+}
+#services:hover h1 {
+    color: #FF7294;
+    transform: scale(1.5);
+}
+#services h1 {
+    margin-bottom: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+#services .card{
+    margin-bottom: 30px;
+}
+#services .card img {
+    height: 350px;
+    width: 100%;
+}
+#services h5 {
+    font-family: 'Dancing Script', cursive;
+}
+#services p {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #FF7294;
+}
+
+/* contact starts */
+#contact {
+    height: 400px;
+    color: #C60164;
+    transition: transform .2s;
+    font-family: 'Roboto', sans-serif;
+}
+#contact:hover h1 {
+    color: #FF7294;
+    transform: scale(1.5);
+}
+#contact h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contact span {
+    color: #FF7294;
+}
+#contact .container {
+    box-shadow: 6px 6px 30px hsla(346, 100%, 72%, 0.226);
+}
+
+/* footer starts */
+#footer {
+    background-color: #353535;
+    padding-top: 20px;
+    color: #f1f1f1;
+    font-family: 'Dancing Script', cursive;
+}
+#footer img {
+    border-radius: 50%;
+}
+#footer h6 {
+    color: #fff;
+}
+#footer .link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer .link a:hover {
+    color: #FF7294;
+}
+.shopping {
+    color: #C60164;
+}
+.shopping:hover {
+    color: #FF7294;
+}
+.foot_content {
+    margin-left: 30px;
+}
+.foot_content img {
+    margin-bottom: 30px;
+}
+.foot_content p {
+    margin-bottom: 33px;
+    margin-right: -50px;
+}
+.foot_content h6 {
+    margin-bottom: 50px;
+}
+.foot_content .contact-info {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    position: relative;
+    background-color: #C60164;
+    margin-bottom: 20px;
+}
+.foot_content .contact-info i {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+#footer .foot_content .social_links li {
+    margin-left: 60px;
+}
+#footer .foot_content .link li {
+    margin-bottom: 15px;
+}
+#footer .foot_content .foot_gallery img {
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+}
+#footer .foot_bottom {
+    padding: 16px 0;
+    background-color: #555555;
+}
+
+/* footer ends  */
+
+/* media query */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #top .nav-item{
+        text-align: center;
+     }
+    .banner{
+        width: 100%;
+        margin-bottom: -20px;
+    }
+    .about-us{
+        padding: 20px;
+        height: 1200px !important;
+    }
+    .about-us img {
+        height: 300px;
+        width: 100%;
+    }
+    #services {
+        height: 2600px !important;
+        margin-bottom: 300px;
+    }
+    #services .card img {
+        height: 250px;
+        width: 100%;
+    }
+    #contact {
+       padding: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #footer .contact-info{
+        margin-left: 60px !important;
+     }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #top .nav-item{
+        text-align: center;
+     }
+     .about-us{
+        padding: 20px;
+        height: 900px;
+    }
+    .about-us .paragraph{
+        font-size: 12px;
+    }
+    .about-us img {
+        height: 300px;
+        width: 100%;
+    }
+    #services {
+        height: 3500px !important;
+        margin-top: -100px;
+        padding: 20px;
+    }
+    #services .card{
+        margin-bottom: 20px;
+    }
+    #services .card img {
+        height: 300px;
+        width: 100%;
+    }
+    #contact {
+        margin-top: -300px;
+        padding: 20px;
+     }
+     #contact h1{
+         margin-bottom: 20px;
+     }
+    #footer{
+        text-align: center;
+    }
+    #footer .contact-info{
+        margin-left: 80px;
+     } 
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #top .nav-item{
+        text-align: center;
+     }
+    .about-us img {
+        height: 350px;
+        margin: 50px;
+        width: 100%;
+    }
+    .about-us .paragraph{
+        font-size: 12px;
+    }
+    #services { 
+        width: 100%;
+        margin-top: -110px;
+        height: 2000px !important;
+        margin-bottom: 150px;
+     } 
+    #services h1{
+        margin-bottom: 80px;
+    }
+    #services .card{
+       margin-bottom: 30px;
+       
+    }
+    #contact h1{
+        margin-bottom: 50px;
+    }
+    #footer{
+        text-align: center;
+    } 
+    #footer .contact-info{
+       margin-left: 220px;
+    }
+}
